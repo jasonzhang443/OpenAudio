@@ -1,0 +1,14 @@
+bin/
+obj/
+.vs/
+artifacts/
+publish/
+Logs/
+*.user
+*.suo
+*.cache
+*.pdb
+*.orig
+Thumbs.db
+Desktop.ini
+
