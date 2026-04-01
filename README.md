@@ -8,7 +8,7 @@ OpenAudio is a Windows desktop app that captures audio from a selected applicati
 
 If you are downloading this from GitHub, use this packaged app zip:
 
-- [Download OpenAudio for Windows x64](release-assets/OpenAudio-win-x64.zip?raw=1)
+- [Download OpenAudio for Windows x64](https://github.com/jasonzhang443/OpenAudio/releases/download/v1.0.0/OpenAudio-win-x64.zip)
 
 Then:
 
