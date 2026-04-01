@@ -16,6 +16,17 @@ A Windows desktop app that captures audio from a selected application, optionall
 
 > No .NET installation required — the build is self-contained.
 
+## Antivirus Warning
+
+Some antivirus tools may flag `OpenAudio.exe` as suspicious. This is a false positive caused by the self-contained .NET packaging — the entire .NET runtime is bundled into a single compressed executable, which low-quality AV engines sometimes flag as malware because malware uses the same technique.
+
+2 out of ~70 engines on VirusTotal flag it, both with generic AI-based labels and no specific signature:
+
+- **Bkav Pro** — `W64.AIDetectMalware` (AI guess, no real signature)
+- **VirIT** — `Trojan.Win64.Agent.JJE` (generic catch-all label)
+
+The source code is fully open so you can verify or build it yourself: [VirusTotal scan](https://www.virustotal.com/gui/file/a88c1f34a7a08b3d2fcc393484474a027e0ed33233f6f56c91543f7d98be5224/detection)
+
 ## How It Works
 
 - Detects VB-Cable on launch and blocks usage until it is installed.
