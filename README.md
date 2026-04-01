@@ -2,6 +2,8 @@
 
 OpenAudio is a Windows desktop app that captures audio from a selected application, optionally mixes in a live microphone, and routes the result into VB-Cable so games can see it as a microphone.
 
+![OpenAudio screenshot](docs/app-screenshot.png)
+
 ## For End Users
 
 If you are downloading this from GitHub, use this packaged app zip:
