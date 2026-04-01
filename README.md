@@ -63,15 +63,6 @@ To create a release zip:
 # Output: artifacts\release\OpenAudio-win-x64.zip
 ```
 
-## Releases
-
-Push a version tag to trigger a GitHub Release automatically:
-
-```powershell
-git tag v1.0.1
-git push origin v1.0.1
-```
-
 ## Troubleshooting
 
 **VB-Cable not detected** — Re-run the VB-Cable installer as administrator, reboot, then click *I installed it, recheck* in the app.
